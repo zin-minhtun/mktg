@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Personal_Injury",
+    "slug": "personal_injury",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "owner": "personal-injury-team",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow access to choose a profile photo.",
+        "NSCameraUsageDescription": "Allow camera access to take a profile photo."
+      }
+    },
+    "android": {
+      "package": "com.anonymous.Personal_Injury",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#007AFF",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "Health Tracker"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#007AFF",
+          "sounds": []
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ccfef0e-872b-4605-a49f-1a8339128367"
+      }
+    }
+  }
+}

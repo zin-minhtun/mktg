@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "693703382371",
+    "project_id": "personal-injury-app-4c5bc",
+    "storage_bucket": "personal-injury-app-4c5bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693703382371:android:7833cc8da1e27b61a5af56",
+        "android_client_info": {
+          "package_name": "com.anonymous.Personal_Injury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693703382371-12iuf7sbe5adbgg4770if5j7kn4kj2au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.Personal_Injury",
+            "certificate_hash": "105e7007d01fbdb3818d3b0bad4fe43d2439ea0a"
+          }
+        },
+        {
+          "client_id": "693703382371-220odkippcb5m6ea4j41cfhbf2ot8ii3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.Personal_Injury",
+            "certificate_hash": "fc8b3cca2b63571cb2776e5f515eb4ba042e68d1"
+          }
+        },
+        {
+          "client_id": "693703382371-ajbe6pk93r40k06otst5ou9qailnoo3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.Personal_Injury",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "693703382371-5l0nubhql55a7p6s8fgmqhchtvsavad7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjmnxfL-_4NI5bNnHgUU3BNMP48pkF_qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693703382371-0fqs1k2vgfscdtu0788vt9jq37spdu8n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "693703382371-ha2r0he7f63f55pftvlssgr4ht4t7li0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.personalinjury.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+# =====================================
+# Node & Dependencies
+# =====================================
+node_modules/
+
+# =====================================
+# Expo
+# =====================================
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# =====================================
+# Native Android/iOS Sensitive Files
+# =====================================
+
+# ANDROID KEYSTORES (CRITICAL: NEVER COMMIT)
+android/app/debug.keystore
+*.keystore
+*.jks
+
+# iOS provisioning / signing files
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# =====================================
+# Android Build and Gradle Artifacts
+# =====================================
+.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+*.iml
+local.properties
+
+# =====================================
+# Metro Bundler Cache
+# =====================================
+.metro-health-check*
+
+# =====================================
+# Debug & Logs
+# =====================================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# =====================================
+# macOS
+# =====================================
+.DS_Store
+
+# =====================================
+# Environment Variables
+# =====================================
+.env
+.env.*
+
+# =====================================
+# TypeScript
+# =====================================
+*.tsbuildinfo
+
+# =====================================
+# IDE / Editor Files
+# =====================================
+.vscode/
+.idea/
+
+# =====================================
+# Expo local device registry (safe to ignore)
+# =====================================
+.expo/devices.json
+
+# =====================================
+# Git Merge Conflict Backups
+# =====================================
+*.orig.*
